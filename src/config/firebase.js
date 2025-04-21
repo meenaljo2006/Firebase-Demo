@@ -4,7 +4,7 @@ import { getAnalytics } from "firebase/analytics";
 import{getAuth} from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDFTPsAS6V26ObpVSm6mczGWRs6OXE7jUk",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "fir-course-5d4f0.firebaseapp.com",
   projectId: "fir-course-5d4f0",
   storageBucket: "fir-course-5d4f0.firebasestorage.app",

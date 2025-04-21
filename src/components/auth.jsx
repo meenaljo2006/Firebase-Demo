@@ -13,6 +13,8 @@ const Auth = () => {
         await createUserWithEmailAndPassword(auth,email,password);
     };
 
+    console.log(auth?.currentUser?.email);
+
     return(
         <>
             <input 
